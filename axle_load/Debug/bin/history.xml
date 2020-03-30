@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=axle_load.map -O1 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\axle_load -TC:\CooCox\CoIDE\configuration\ProgramData\axle_load/arm-gcc-link.ld -g">
+      <target file="axle_load.elf" lastModified="1703ec3a71b">
+         <source file="..\obj\system_stm32f10x.o" lastModified="1703ec39f6b"/>
+         <source file="..\obj\hd44780_driver.o" lastModified="1703ec39ff4"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="1703ec3a05d"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1703ec3a111"/>
+         <source file="..\obj\main.o" lastModified="1703ec3a282"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1703ec3a332"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="1703ec3a3aa"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1703ec3a46f"/>
+         <source file="..\obj\syscalls.o" lastModified="1703ec3a4ed"/>
+      </target>
+   </processor>
+</history>

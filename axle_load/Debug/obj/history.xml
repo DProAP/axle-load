@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 8.1.0 x86_64-w64-mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O1 -c -DSTM32F103RE -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\axle_load_2\stm_lib -I..\..\..\workspace -I..\..\..\workspace\axle_load_2 -I..\..\..\workspace\axle_load_2\cmsis_boot -I..\..\..\workspace\axle_load_2\cmsis -I..\..\..\workspace\axle_load_2\hd44780_driver -I..\..\..\workspace\axle_load_2\stm_lib\inc">
+      <target file="syscalls.o" lastModified="1703ec3a4ed">
+         <source file="..\..\..\syscalls.c" lastModified="16e1d29dbc2"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="1703ec3a3aa">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="16cf7a5eb73"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="1703ec3a05d">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="16cdd89bab9"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1703ec39f6b">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="16cdd89bae4"/>
+      </target>
+      <target file="hd44780_driver.o" lastModified="1703ec39ff4">
+         <source file="..\..\..\hd44780_driver\hd44780_driver.c" lastModified="16d49ebc2c4"/>
+      </target>
+      <target file="main.o" lastModified="1703ec3a282">
+         <source file="..\..\..\main.c" lastModified="1703ec39c7d"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1703ec3a111">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="16cddc70d40"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1703ec3a46f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="16d48c08d9c"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1703ec3a332">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="16cfb23df0c"/>
+      </target>
+   </processor>
+</history>
